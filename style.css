@@ -18,3 +18,30 @@ a{
    color : blue;
 
 }
+/* Navigation Bar */
+nav {
+   background-color: #007BFF;
+   padding: 1rem;
+   text-align: center;
+}
+
+nav ul {
+   list-style: none;
+}
+
+nav ul li {
+   display: inline;
+   margin: 0 15px;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+   color: #FFD700;
+}
+
