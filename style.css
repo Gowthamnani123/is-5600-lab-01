@@ -53,5 +53,20 @@ nav ul li a:hover {
    border-radius: 10px;
    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+/* Styled Button */
+.button {
+   display: inline-block;
+   background-color: #28A745;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: background 0.3s ease;
+}
+
+.button:hover {
+   background-color: #218838;
+}
 
 
