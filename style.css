@@ -14,3 +14,68 @@ body {
 }
 
 /* add styles here */
+a{
+   color : blue;
+
+}
+/* Navigation Bar */
+nav {
+   background-color: #007BFF;
+   padding: 1rem;
+   text-align: center;
+}
+
+nav ul {
+   list-style: none;
+}
+
+nav ul li {
+   display: inline;
+   margin: 0 15px;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+   color: #FFD700;
+}
+/* Card Style for Sections */
+.section-card {
+   background: white;
+   padding: 20px;
+   margin: 20px auto;
+   max-width: 800px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Styled Button */
+.button {
+   display: inline-block;
+   background-color: #28A745;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: background 0.3s ease;
+}
+
+.button:hover {
+   background-color: #218838;
+}
+/* Footer Style */
+footer {
+   background: #222;
+   color: white;
+   text-align: center;
+   padding: 1rem;
+   margin-top: 20px;
+}
+
+
+
